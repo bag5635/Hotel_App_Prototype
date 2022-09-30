@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Hotel</string>
+    <string name="Intro">Search For Hotels\nNear Penn State Harrisburg</string>
+    <string name="Search_MiddleTown">Click Here To Begin</string>
+
+    <string name="Filler">Info to be figured out</string>
+    <string name="Favorites">Favorites</string>
+    <string name="Interested">Yes</string>
+    <string name="Hotel_1">Comfort Inn</string>
+    <string name="Hotel_2">Fairfield Inn</string>
+    <string name="Hotel_3">Holiday Inn</string>
+    <string name="Hotel_4">Best Western</string>
+    <string name="Hotel_5">Holiday Lettings</string>
+    <string name="NotInterested">No</string>
+    <string name="CLICK">Click on a hotel to find more information.</string>
+    <string name="hyperlinkH1">Comfort Inn\n<a href="https://www.choicehotels.com/pennsylvania/middletown/comfort-inn-hotels/pa786">choicehotels.com</a></string>
+
+
+</resources>

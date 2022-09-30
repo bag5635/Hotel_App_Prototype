@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Hotel_5"
+    android:background="@color/DarkBlue">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/hotelfinal5"
+        android:layout_below="@id/Hotel_MiddleTown"/>
+
+    <TextView
+        android:id="@+id/Hotel_MiddleTown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Hotel_5"
+        android:textSize="40sp"
+        android:padding="20dp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        style="@style/MainStyleText"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/Interested"
+        android:layout_alignParentEnd="true"
+        android:onClick="Choice"
+        style="@style/MainStyleText"
+        android:backgroundTint="@color/DarkerBlue"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/button2"
+        android:text="@string/NotInterested"
+        android:onClick="NO"
+        style="@style/MainStyleText"
+        android:backgroundTint="@color/DarkerBlue"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        style="@style/MainStyleText"
+        android:backgroundTint="@color/DarkerBlue"
+        android:id="@+id/button3"
+        android:text="@string/Favorites"
+        android:onClick="fav"
+        />
+
+
+</RelativeLayout>
